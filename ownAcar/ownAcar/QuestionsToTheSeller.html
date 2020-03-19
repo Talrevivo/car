@@ -1,0 +1,256 @@
+﻿<!doctype html>
+<html Lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>ownAcar שאלות למוכר</title>
+    <meta name="description" content="שאלות לשאול את מוכר הרכב לפני רכישה" />
+    <meta name="keywords" content="שאלות למוכר רכב,רכב חדש,רכב משומש,רכב ליסינג,מה לשאול כשמתקשרים למוכר" />
+    <meta name="author" content="טל רביבו, נעמה בלום, עדן כהן, אור שביט." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link rel="icon" href="Images/favicon.jpeg">
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Molle:400i" rel="stylesheet">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="jScripts/‏‏JavaScript2.js"></script>
+
+</head>
+<body  onload="tab_nav()">
+    <div>
+        <div id="skip">
+            <a href="#skip7">דלג לתוכן</a>
+        </div>
+        <nav role="navigation" id="mainNav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-right">
+                    <a class="text-dark" href="index.html">
+                        <img id="carl" src="images/Logo.png" alt="לוגו" />
+                        <div id="logoTitle">
+                            <span id="title">ownAcar</span>
+                            <span id="slogen">רכישת הרכב הבא שלך בקלות</span>
+                        </div>
+                    </a>
+                </div>
+                <ul class="nav nav-tabs navbar-left">
+                    <li class="nav-item">
+                        <a class="text-dark nav-link" href="#">לפני רכישה</a>
+                        <ul>
+                            <li class="nav-item"><a class="text-dark nav-link" href="WhatKindOfCarIsRightForMe.html">איזה סוג רכב מתאים לי?</a></li>
+                            <li class="nav-item"><a class="text-dark nav-link" href="WarningsBeforeBuying.html">אזהרות לפני הרכישה</a></li>
+                            <li class="nav-item"><a class="text-dark notActive nav-link" href="#">שבירת מיתוסים</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark nav-link" href="#">סוגי רכישה</a>
+                        <ul>
+                            <li><a class="text-dark nav-link" href="BuyingAnewCar.html">קניית רכב חדש</a></li>
+                            <li><a class="text-dark nav-link notActive" href="#">קניית רכב משומש</a></li>
+                            <li><a class="text-dark nav-link notActive" href="#">קניית רכב מליסינג</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark nav-link on" href="#">תהליך הרכישה</a>
+                        <ul>
+                            <li><a class="text-dark nav-link" href="QuestionsToTheSeller.html">שאלות למוכר</a></li>
+                            <li><a class="text-dark nav-link" href="chackaCar.html">בדיקת הרכב</a></li>
+                            <li><a class="text-dark nav-link notActive" href="#">קניית הרכב</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-dark nav-link" href="#">ארגז כלים</a>
+                        <ul>
+                            <li><a class="text-dark nav-link" href="GlossaryOfTerms.html">מילון מונחים</a></li>
+                            <li><a class="text-dark nav-link notActive" href="#">שאלות ותשובות</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <article>
+            <header>
+                <div class="waveForPages">
+                    <div class="container" id="skip7">
+                        <h1 class="innertitle">
+                            <span id="iconHqustion"></span>
+                            שאלות למוכר
+                        </h1>
+
+                        <span class="innerdot"></span>
+                        <p class="openparhagraph col-7 offset-1 getdown">אם הבנתם <a href="WhatKindOfCarIsRightForMe.html">איזה רכב מתאים לכם </a>בואו נעבור לתכלס – <br />מה אני צריך לשאול את המוכר כשאני מתקשר אליו?</p>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <p id="instructQuestion">לקבלת הסבר נוסף לחצו על השאלות:</p>
+                <section class="getdown">
+                    <h2>שאלות כלליות</h2>
+                    <div class="dotgeneral"></div>
+                    <ul class="questionsBolets">
+                        <li>
+                            <h3 class="questions">  <a class="amen" data-toggle="collapse" data-parent="#accordion" href="#collapse1"> מהו דגם הרכב? </a></h3>
+                            <p id="collapse1" class="panel-collapse collapse in bottomLine">על סמך מידע זה נוכל לחפש ביקורות ומידע נוסף.</p>
+                        </li>
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">מהו נפח המנוע של הרכב?</a></h3>
+                            <p id="collapse2" class="panel-collapse collapse in bottomLine">כך נוכל להבין פחות או יותר כמה "חזק" הרכב והאם הוא תואם את צרכנו?<br />חשוב לזכור שבקניית רכב חדש ישנה אופציה לבחור את נפח המנוע.</p>
+                        </li>
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">מהו המחיר המבוקש ומה מחיר המחירון? </a></h3>
+                            <p id="collapse3" class="panel-collapse collapse in bottomLine">אל תתמקחו בטלפון- זה פשוט לא עובד ככה...</p>
+                        </li>
+                    </ul>
+                </section>
+                <div id="bluedot"></div>
+                <div id="imgdot" alt="אדם מדבר בטלפון"> </div>
+                <section class="getdown">
+                    <h2>שאלות לרכב חדש</h2>
+                    <div class="dotgeneral"></div>
+                    <ul class="questionsBolets">
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">מה כולל המחיר המבוקש? </a></h3>
+                            <p id="collapse4" class="panel-collapse collapse in bottomLine">לעיתים המחיר אינו כולל מיסים שונים או תוספות מסוימות שנראות מובנות מאיליו.</p>
+                        </li>
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">מה עם אחריות? </a></h3>
+                            <p id="collapse5" class="panel-collapse collapse in bottomLine"> ייבואן מחויב לתת לפחות שנתיים אחריות. האחריות אינה יכולה להיות קצרה מזו הניתנת על ידי היצרן. במידה ומציעים לכם אחריות העולה על שנתיים תבקשו פירוט של מחירה בנפרד ממחיר הרכב ואל תתנו ליבואן "לכפות" אותה עליכם.</p>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section class="getdown">
+                    <h2>שאלות לרכב משומש</h2>
+                    <div class="dotgeneral"></div>
+                    <ul class="questionsBolets">
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"> כמה ידיים עבר ובאיזה סוגי בעלות היה הרכב עד כה? </a></h3>
+                            <p id="collapse6" class="panel-collapse collapse in bottomLine">ככל שהרכב היה בבעלותם של יותר אנשים (ידיים) כך יורד ערכו בשוק. הזמן הממוצע הוא החלפת בעלים מדי 2-3 שנים. נתון זה ישפיע על המחיר ובלאי הרכב. ישנם סוגי בעלות שונים אבל השניים הבולטים מבניהם הם בעלות פרטית או ליסינג. אם הרכב היה בליסינג בעבר לעיתים "התנהגו ושמרו" על הרכב בצורה לא מיטבית ולכן זה פחות מומלץ. </p>
+
+                        </li>
+
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">מהי שנת הייצור של הרכב ומהי שנת העלייה על הכביש? </a></h3>
+                            <p id="collapse8" class="panel-collapse collapse in bottomLine">שנת העלייה לכביש בדרך כלל תהיה יותר רלוונטית אך מומלץ לשאול גם על שנת הייצור של הרכב.</p>
+                        </li>
+
+                        <li>
+                            <h3 class="questions"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse10"> מדוע הרכב עומד למכירה ולאיזו מטרה שימש?</a></h3>
+                            <p id="collapse10" class="panel-collapse collapse in bottomLine">לא נוכל לעשות כלום מלבד לבחור האם להאמין או לא להאמין למוכר אבל זוהי בהחלט שאלה חשובה. רכב יכול לשמש לעסקים, שימוש פרטי, טיולים ועוד הרבה דברים אחרים. אם אנו מעוניינים ברכב חשוב להבין – מה הרכב הזה עבר עד עכשיו?</p>
+                        </li>
+
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">מהו הקילומטראז' ? </a></h3>
+                            <p id="collapse12" class="panel-collapse collapse in bottomLine">משמעו- כמה ק"מ עבר הרכב. הממוצע עומד על 15-20 אלף ק"מ בשנה, נתון זה גם הוא משפיע על המחיר ואף מופיע במחירוני הרכב המשומש כקריטריון. חשוב לציין שניתן לבדוק את הקילומטראז' של הרכב באמצעות איגוד המוסכים ובכך לוודא שמד הקילומטרים לא זויף. </p>
+                        </li>
+
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">האם הרכב עבר תאונה? </a></h3>
+                            <p id="collapse14" class="panel-collapse collapse in bottomLine">רכב שעבר תאונה לא "נפסל" אך התאונה וחומרתה משפיעות על מחיר הרכב. יש לוודא מהי חומרת התאונה בפירוט. שלדה שנפגעה למשל היא עניין מסוכן.</p>
+                        </li>
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">האם המנוע הוחלף? </a></h3>
+                            <p id="collapse15" class="panel-collapse collapse in bottomLine">אם כן מומלץ לבקש קבלות ולבדוק את העניין לעומק.</p>
+                        </li>
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse16"> היכן טופל הרכב? אפשר לראות את ספר הטיפולים או את הקבלות?</a></h3>
+                            <p id="collapse16" class="panel-collapse collapse in bottomLine">בדקו מתי בוצע הטיפול האחרון ומתי הוחלפו חלקים שונים. </p>
+                        </li>
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">מתי הוחלפה רצועת טיימינג? </a></h3>
+                            <p id="collapse17" class="panel-collapse collapse in bottomLine">זוהי רצועה שיש להחליף כל 100,000 ק"מ, עלות ההחלפה אינה זולה ולכן מומלץ לשאול ולבקש קבלות על ההחלפה. <a href="#">מה זה רצועת טיימינג</a></p>
+                        </li>
+
+                    </ul>
+                </section>
+                <section class="getdown">
+                    <h2>שאלות לעסקאות ליסינג</h2>
+                    <div class="dotgeneral"></div>
+                    <ul class="questionsBolets">
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse19">איזה סוגי רכבים יש לכם? </a></h3>
+                            <p id="collapse19" class="panel-collapse collapse in bottomLine">
+                                ישנן חברות ליסינג שבהן יש סוגים ספציפיים של מכוניות.
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="questions">  <a data-toggle="collapse" data-parent="#accordion" href="#collapse20">מהו המחיר החודשי ולאיזו תקופה העסקה </a></h3>
+                            <p id="collapse20" class="panel-collapse collapse in bottomLine">בעסקאות ליסינג נהוג לשלם מחיר חודשי עם "השכרת" הרכב. לכן, לפני שנכנסים להתחייבות כדאי להבין את אורכה ותנאיה.</p>
+                        </li>
+                    </ul>
+                    <p>*במידה ואנו מעוניינים בליסינג של רכב יד שניה נעבור גם על שאלות לרכב יד שנייה ונבחר את מה שרלוונטי.</p>
+                </section>
+                <h2> חשוב לשאול גם על דברים שחשובים לנו ברכב עליהם החלטנו מראש:</h2>
+                <ul class="noul row getdown">
+                    <li>
+                        <div id="box1"></div>
+                        <span class="mid">מרחב אחסון</span>
+                    </li>
+                    <li>
+                        <div id="seats"></div>
+                        <span class="mid">מספר הכיסאות</span>
+                    </li>
+                    <li>
+                        <div id="size"></div>
+                        <span class="mid">גודל הרכב</span>
+                    </li>
+                    <li>
+                        <div id="plate"></div>
+                        <span class="mid">צבע</span>
+                    </li>
+                </ul>
+
+                <h2>ומה עכשיו?  אל תדאגו- לא נשאיר אתכם לבד ! לרוב אחרי שיחה עם המוכר תעברו לשלב <a href="chackaCar.html">בדיקת הרכב</a> שיהיה בהצלחה..</h2>
+            </div>
+        </article>
+        <footer class="footerinner">
+            <nav role="navigation" class="wavtwo container">
+                <div class="row">
+                    <ul class="navv-tabs col-2 offset-2">
+                        <li>לפני רכישה</li>
+                        <li><a class="text-dark" href="WhatKindOfCarIsRightForMe.html">איזה סוג רכב מתאים לי</a></li>
+                        <li><a class="text-dark" href="WarningsBeforeBuying.html">אזהרות לפני רכישה</a></li>
+                        <li><a class="text-dark notActive" href="#">שבירת מיתוסים</a></li>
+                    </ul>
+                    <ul class="navv-tabs col-2">
+                        <li>סוגי רכישה</li>
+                        <li><a class="text-dark" href="BuyingAnewCar.html">קניית רכב חדש</a></li>
+                        <li><a class="text-dark notActive" href="#">קניית רכב משומש</a></li>
+                        <li><a class="text-dark notActive" href="#">קניית רכב מליסינג</a></li>
+                    </ul>
+                    <ul class="navv-tabs col-2">
+                        <li>תהליך הרכישה</li>
+                        <li><a class="text-dark" href="QuestionsToTheSeller.html">שאלות למוכר</a></li>
+                        <li><a class="text-dark" href="chackaCar.html">בדיקת הרכב</a></li>
+                        <li><a class="text-dark notActive" href="#">קניית הרכב</a></li>
+                    </ul>
+                    <ul class="navv-tabs col-2">
+                        <li>ארגז כלים</li>
+                        <li><a class="text-dark" href="GlossaryOfTerms.html">מילון מונחים</a></li>
+                        <li><a class="text-dark notActive" href="#">שאלות ותשובות</a></li>
+                    </ul>
+                    <ul class="navv-tabs col-2">
+                        <li>על האתר</li>
+                        <li><a class="text-dark" href="about.html">אודות</a></li>
+                        <li><a class="text-dark" href="contactUs.html">צור קשר</a></li>
+                        <li><a class="text-dark" href="siteMap.html">מפת אתר</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <p class="col-12">האתר עוצב על ידי צוות <a href="#"> ownAcar</a>. האייקונים נלקחו מאתר<a href="https://icons8.com"> icons8</a>.</p>
+                </div>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
